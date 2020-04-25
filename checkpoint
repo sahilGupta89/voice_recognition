@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:/Neural_Network_Research/Voice_Recognition/trained_models"
+all_model_checkpoint_paths: "D:/Neural_Network_Research/Voice_Recognition/trained_models"

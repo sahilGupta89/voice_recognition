@@ -1,0 +1,14 @@
+python D:/Neural_Network_Research/Voice_Recognition/train_model_tf.py --inputfolder="D:/Neural_Network_Research/Voice_Recognition/data" --predictionfile="D:/Neural_Network_Research/Voice_Recognition/test_data/" --dictionary="D:/Neural_Network_Research/Voice_Recognition/dictionaries" --modelpath="D:/Neural_Network_Research/Voice_Recognition/trained_models"  --speakersfile="D:/Neural_Network_Research/Voice_Recognition/speaker_list.npy"  --epochs=450 --batchsize=100  --learningrate=0.00001 --loopvalue=1
+
+
+
+
+python D:/Neural_Network_Research/Voice_Recognition/train_model_tf.py --inputfolder="D:/Neural_Network_Research/Database/data/" --predictionfile="D:/Neural_Network_Research/Database/test_data/" --dictionary="D:/Neural_Network_Research/Database/dictionaries/" --modelpath="D:/Neural_Network_Research/Database/trained_models/"  --speakersfile="D:/Neural_Network_Research/Database/speaker_list.npy"  --epochs=2000 --batchsize=200  --learningrate=0.00001 --loopvalue=1
+
+
+python D:/Neural_Network_Research/Voice_Recognition/train_model_tf.py --inputfolder="D:/Neural_Network_Research/Resources/Output_Data" --predictionfile="D:/Neural_Network_Research/Resources/Output_Data" --dictionary="D:/Neural_Network_Research/Resources/Output_Data/dictionaries" --modelpath="D:/Neural_Network_Research/Resources/Output_Data/models"  --speakersfile="D:/Neural_Network_Research/Resources/Output_Data/speaker_list.npy"  --epochs=2000 --batchsize=200  --learningrate=0.00001 --loopvalue=1
+
+
+
+
+python D:/Neural_Network_Research/Voice_Recognition/train_model_tf.py --inputfolder="D:/Neural_Network_Research/Resources/Output_Data/" --predictionfile="D:/Neural_Network_Research/Resources/Output_Data/Test_data/" --dictionary="D:/Neural_Network_Research/Resources/Output_Data/dictionaries/" --modelpath="D:/Neural_Network_Research/Resources/Output_Data/models/"  --speakersfile="D:/Neural_Network_Research/Resources/Output_Data/speaker_list.npy"  --epochs=2000 --batchsize=200  --learningrate=0.00001 --loopvalue=1
